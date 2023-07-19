@@ -1,9 +1,13 @@
-import logo from './logo.svg'
-import './App.css'
-import teste from './teste'
+import Teste from './Teste'
+import EstiloGlobal from './styles'
 
 function App() {
-  return <teste />
+  return (
+    <>
+      <Teste />
+      <EstiloGlobal />
+    </>
+  )
 }
 
 export default App
